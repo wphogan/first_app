@@ -2,7 +2,6 @@ Rails.application.routes.draw do
  root 'welcome#index'
   resources :microposts
   resources :users
-match 'user/eat_chocolate/:id' => 'user#eat_chocolate', :as => :eat_chocolate_user
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
